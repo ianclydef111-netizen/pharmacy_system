@@ -1,0 +1,42 @@
+body {
+    /* Use 'background' or 'background-image' for gradients */
+    background: linear-gradient(  #f3f0f0, #0508a0);
+    background-attachment: fixed; /* Keeps the gradient from repeating if the page is long */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* Ensures the gradient covers the full screen height */
+}
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* ─── Table ───────────────────────────────────────── */
+.table th {
+    background-color: #f4f4f8;
+}
+
+/* ─── Form width ──────────────────────────────────── */
+.form-box {
+    max-width: 600px;
+}
+
+/* ─── Login / Register card ──────────────────────── */
+.auth-box {
+    max-width: 420px;
+    margin: 80px auto;
+    background: #f7f7f9;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.auth-box h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* ─── Stock badges ────────────────────────────────── */
+.badge-low { background-color: #ffc107; color: #000; }
+.badge-out { background-color: #dc3545; color: #080808; }
+.badge-ok  { background-color: #198754; color: #fff; }
